@@ -9,9 +9,9 @@ int main (void)
   if (ch==1)
   {
     row=get_int("Number of rows");
-    for (int i=row;i>=1;i--)
+    for(int i=row;i>=1;i--)
     {
-      for (int j=1;j<=i;j++)
+      for(int j=1;j<=i;j++)
         printf ("#");
       printf ("\n");
     }
@@ -20,11 +20,11 @@ int main (void)
   {
     row=get_int("Number of rows");
     space=1;
-    for (int i=row;i>=1;i--)
+    for(int i=row;i>=1;i--)
     {
-      for (int j=1;j<=i-1;j++)
+      for(int j=1;j<=i-1;j++)
         printf (" ");
-      for (int k=1;k<=space;k++)
+      for(int k=1;k<=space;k++)
         printf ("#");
       printf ("\n");
       space++;  
